@@ -1,0 +1,153 @@
+body
+{
+	background-color:white;
+	
+}
+
+#wrapper
+{
+	width:1000px;
+	height:900px;
+	background-color:dimgray;
+	margin:auto;
+}
+
+#banner
+{
+	width:750px;
+	height:200px;
+	background-image:url('../IMAGES/booho.jpg');
+	float:left;
+	
+	
+	
+}
+
+#links
+{
+	width:250px;
+	height:200px;
+	background-color:palegoldenrod;
+	float:right;
+    
+}	
+
+a
+{
+
+    color:dimgray;
+	padding:50px;
+	
+}
+
+#menu
+{
+    width:1000px;
+	height:100px;
+	background-color:dimgray;
+	
+
+}
+
+#submenu
+{
+    width:1000px;
+    height:428px;
+    background-color:dimgray; 	
+	
+}
+
+	
+#slideshow
+{
+	width: 1000px;
+	height:230px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:450px;
+    left:50%;
+    overflow:hidden;
+	
+}
+#slides
+{
+    width:1000px;
+	height:150px;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+
+@keyframes slide{
+	0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+}  
+
+
+
+#shirt
+{
+	
+    width:250px;
+	height:280px;
+    background-image:url('../IMAGES/shirt3.jpg');
+	
+	
+}	
+
+
+#shoe
+{
+	
+    width:250px;
+	height:280px;
+   	background-image:url('../IMAGES/shoe2.jpg');
+	float:left;
+	
+	
+	
+}
+
+
+#slippers
+{
+	
+    width:250px;
+	height:280px;
+    background-image:url('../IMAGES/slippers1.jpg');
+	
+	
+	
+}
+
+}
+
+
+#footer
+{
+    width:1000px;
+	height:57px;
+    background-color:dimgray;
+}
+
+#bolink
+{
+	color:palegoldenrod;
+	padding-left:0;
+	padding-top:-2;
+}
